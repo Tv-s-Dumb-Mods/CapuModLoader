@@ -21,7 +21,7 @@ namespace MonkeModManager
     {
 
         private const string BaseEndpoint = "https://api.github.com/repos/";
-        private const Int16 CurrentVersion = 5;
+        private const Int16 CurrentVersion = 1;
         private List<ReleaseInfo> releases;
         Dictionary<string, int> groups = new Dictionary<string, int>();
         private string InstallDirectory = @"";
@@ -60,18 +60,18 @@ namespace MonkeModManager
             {
                 if (File.Exists(Path.Combine(InstallDirectory, "mods.disable")))
                 {
-                    buttonToggleMods.Text = "Enable Mods";
+
                     modsDisabled = true;
-                    buttonToggleMods.Enabled = true;
+
                 }
                 else
                 {
-                    buttonToggleMods.Enabled = false;
+
                 }
             }
             else
             {
-                buttonToggleMods.Enabled = true;
+
             }
             new Thread(() =>
             {
@@ -83,8 +83,8 @@ namespace MonkeModManager
 
         private void LoadReleases()
         {
-            var decodedMods = JSON.Parse(DownloadSite("https://raw.githubusercontent.com/BzzzThe18th/MonkeModInfo/master/modinfo.json"));
-            var decodedGroups = JSON.Parse(DownloadSite("https://raw.githubusercontent.com/BzzzThe18th/MonkeModInfo/master/groupinfo.json"));
+            var decodedMods = JSON.Parse(DownloadSite("https://raw.githubusercontent.com/Tv-s-Dumb-Mods/CapuModInfo/refs/heads/master/modinfo.json"));
+            var decodedGroups = JSON.Parse(DownloadSite("https://raw.githubusercontent.com/Tv-s-Dumb-Mods/CapuModInfo/refs/heads/master/groupinfo.json"));
 
             var allMods = decodedMods.AsArray;
             var allGroups = decodedGroups.AsArray;
@@ -137,7 +137,7 @@ namespace MonkeModManager
                 foreach (ReleaseInfo release in releases)
                 {
                     ListViewItem item = new ListViewItem();
-                    item.BackColor = Color.FromArgb(28,28,28);
+                    item.BackColor = Color.FromName("DarkGoldenrod");
                     item.ForeColor = Color.White;
                     item.Text = release.Name;
                     if (!String.IsNullOrEmpty(release.Version)) item.Text = $"{release.Name} - {release.Version}";
@@ -234,7 +234,7 @@ namespace MonkeModManager
 
             this.Invoke((MethodInvoker)(() =>
             { //Invoke so we can call from any thread
-                buttonToggleMods.Enabled = true;
+
             }));
         }
 
@@ -271,20 +271,20 @@ namespace MonkeModManager
         {
             using (var fileDialog = new OpenFileDialog())
             {
-                fileDialog.FileName = "GorillaTag Executable";
+                fileDialog.FileName = "Capuchin Executable";
                 fileDialog.Filter = "Exe Files (.exe)|*.exe|All Files (*.*)|*.*";
                 fileDialog.FilterIndex = 1;
                 if (fileDialog.ShowDialog() == DialogResult.OK)
                 {
                     string path = fileDialog.FileName;
-                    if (Path.GetFileName(path).Equals("Gorilla Tag.exe") | Path.GetFileName(path).Equals("GorillaTag.exe"))
+                    if (Path.GetFileName(path).Equals("Capuchin.exe") | Path.GetFileName(path).Equals("Capuchin.exe"))
                     {
                         InstallDirectory = Path.GetDirectoryName(path);
                         textBoxDirectory.Text = InstallDirectory;
                     }
                     else
                     {
-                        MessageBox.Show("That's not the Gorilla Tag exectuable! please try again!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("That's not the Capuchin exectuable! please try again!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
                 }
@@ -365,11 +365,11 @@ namespace MonkeModManager
         {
             if (listViewMods.SelectedItems.Count > 0)
             {
-                buttonModInfo.ForeColor = Color.White;
+
             }
             else
             {
-                buttonModInfo.ForeColor = Color.LightGray;
+
             }
         }
 
@@ -502,9 +502,9 @@ namespace MonkeModManager
 
         private void buttonOpenModsFolder_Click(object sender, EventArgs e)
         {
-            var BepInExDirectory = Path.Combine(InstallDirectory, @"Mods");
-            if (Directory.Exists(BepInExDirectory))
-                Process.Start(BepInExDirectory);
+            var MelonDirectory = Path.Combine(InstallDirectory, @"Mods");
+            if (Directory.Exists(MelonDirectory))
+                Process.Start(MelonDirectory);
         }
 
         #endregion // Folders
@@ -592,13 +592,13 @@ namespace MonkeModManager
             {
                 using (var fileDialog = new OpenFileDialog())
                 {
-                    fileDialog.FileName = "Gorilla Tag Executable";
+                    fileDialog.FileName = "Capuchin Executable";
                     fileDialog.Filter = "Exe Files (.exe)|*.exe|All Files (*.*)|*.*";
                     fileDialog.FilterIndex = 1;
                     if (fileDialog.ShowDialog() == DialogResult.OK)
                     {
                         string path = fileDialog.FileName;
-                        if (Path.GetFileName(path).Equals("Gorilla Tag.exe") | Path.GetFileName(path).Equals("GorillaTag.exe"))
+                        if (Path.GetFileName(path).Equals("Capuchin.exe") | Path.GetFileName(path).Equals("Capuchin.exe"))
                         {
                             InstallDirectory = Path.GetDirectoryName(path);
                             textBoxDirectory.Text = InstallDirectory;
@@ -606,7 +606,7 @@ namespace MonkeModManager
                         }
                         else
                         {
-                            MessageBox.Show("That's not the Gorilla Tag exectuable! please try again!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("That's not the Capuchin exectuable! please try again!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                     else
@@ -620,13 +620,13 @@ namespace MonkeModManager
         private void CheckVersion()
         {
             UpdateStatus("Checking for updates...");
-            Int16 version = Convert.ToInt16(DownloadSite("https://raw.githubusercontent.com/BzzzThe18th/MonkeModManager/master/update.txt"));
+            Int16 version = Convert.ToInt16(DownloadSite("https://raw.githubusercontent.com/Tv-s-Dumb-Mods/CapuModLoader/refs/heads/master/update.txt"));
             if (version > CurrentVersion)
             {
                 this.Invoke((MethodInvoker)(() =>
                 {
                     MessageBox.Show("Your version of the mod installer is outdated! Please download the new one!", "Update available!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    Process.Start("https://github.com/BzzzThe18th/MonkeModManager/releases/latest");
+                    Process.Start("https://github.com/Tv-s-Dumb-Mods/CapuModLoader/releases/latest");
                     Process.GetCurrentProcess().Kill();
                     Environment.Exit(0);
                 }));
@@ -666,7 +666,7 @@ namespace MonkeModManager
             {
                 if (Directory.Exists(steam))
                 {
-                    if (File.Exists(steam + @"\Gorilla Tag.exe") | File.Exists(steam + @"\GorillaTag.exe"))
+                    if (File.Exists(steam + @"\Capuchin.exe") | File.Exists(steam + @"\Capuchin.exe"))
                     {
                         textBoxDirectory.Text = steam;
                         InstallDirectory = steam;
@@ -679,13 +679,13 @@ namespace MonkeModManager
         }
         private void ShowErrorFindingDirectoryMessage()
         {
-            MessageBox.Show("We couldn't seem to find your Gorilla Tag installation, please press \"OK\" and point us to it", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("We couldn't seem to find your Capuchin installation, please press \"OK\" and point us to it", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             NotFoundHandler();
             this.TopMost = true;
         }
         private string GetSteamLocation()
         {
-            string path = RegistryWOW6432.GetRegKey64(RegHive.HKEY_LOCAL_MACHINE, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 1533390", @"InstallLocation");
+            string path = RegistryWOW6432.GetRegKey64(RegHive.HKEY_LOCAL_MACHINE, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 2767950", @"InstallLocation");
             if (path != null)
             {
                 path = path + @"\";
@@ -783,8 +783,6 @@ namespace MonkeModManager
                 if (File.Exists(Path.Combine(InstallDirectory, "mods.disable")))
                 {
                     File.Move(Path.Combine(InstallDirectory, "mods.disable"), Path.Combine(InstallDirectory, "winhttp.dll"));
-                    buttonToggleMods.Text = "Disable Mods";
-                    buttonToggleMods.BackColor = Color.FromArgb(120, 0, 0);
                     modsDisabled = false;
                     UpdateStatus("Enabled mods!");
                 }
@@ -794,12 +792,20 @@ namespace MonkeModManager
                 if (File.Exists(Path.Combine(InstallDirectory, "winhttp.dll")))
                 {
                     File.Move(Path.Combine(InstallDirectory, "winhttp.dll"), Path.Combine(InstallDirectory, "mods.disable"));
-                    buttonToggleMods.Text = "Enable Mods";
-                    buttonToggleMods.BackColor = Color.FromArgb(0, 120, 0);
                     modsDisabled = true;
                     UpdateStatus("Disabled mods!");
                 }
             }
+        }
+
+        private void listViewMods_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

@@ -7,8 +7,8 @@
     <ProjectGuid>{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MonkeModManager</RootNamespace>
-    <AssemblyName>MonkeModManager</AssemblyName>
+    <RootNamespace>CapuModLoader</RootNamespace>
+    <AssemblyName>CapuModLoader</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -53,7 +53,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>monke_transparent.ico</ApplicationIcon>
+    <ApplicationIcon>monke.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
