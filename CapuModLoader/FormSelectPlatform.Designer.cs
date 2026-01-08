@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.radioButtonSteam = new System.Windows.Forms.RadioButton();
-            this.radioButtonOculus = new System.Windows.Forms.RadioButton();
             this.buttonConfirm = new System.Windows.Forms.Button();
+            this.radioButtonOculus = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // radioButtonSteam
@@ -44,17 +44,6 @@
             this.radioButtonSteam.Text = "I purchased the game on Steam";
             this.radioButtonSteam.UseVisualStyleBackColor = true;
             // 
-            // radioButtonOculus
-            // 
-            this.radioButtonOculus.AutoSize = true;
-            this.radioButtonOculus.Location = new System.Drawing.Point(25, 35);
-            this.radioButtonOculus.Name = "radioButtonOculus";
-            this.radioButtonOculus.Size = new System.Drawing.Size(242, 17);
-            this.radioButtonOculus.TabIndex = 1;
-            this.radioButtonOculus.TabStop = true;
-            this.radioButtonOculus.Text = "I purchased the game on the Oculus Store";
-            this.radioButtonOculus.UseVisualStyleBackColor = true;
-            // 
             // buttonConfirm
             // 
             this.buttonConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -65,6 +54,17 @@
             this.buttonConfirm.Text = "Confirm";
             this.buttonConfirm.UseVisualStyleBackColor = true;
             this.buttonConfirm.Click += new System.EventHandler(this.buttonConfirm_Click);
+            // 
+            // radioButtonOculus
+            // 
+            this.radioButtonOculus.AutoSize = true;
+            this.radioButtonOculus.Location = new System.Drawing.Point(25, 35);
+            this.radioButtonOculus.Name = "radioButtonOculus";
+            this.radioButtonOculus.Size = new System.Drawing.Size(242, 17);
+            this.radioButtonOculus.TabIndex = 1;
+            this.radioButtonOculus.TabStop = true;
+            this.radioButtonOculus.Text = "I purchased the game on the Oculus Store";
+            this.radioButtonOculus.UseVisualStyleBackColor = true;
             // 
             // FormSelectPlatform
             // 
@@ -94,7 +94,7 @@
         #endregion
 
         private System.Windows.Forms.RadioButton radioButtonSteam;
-        private System.Windows.Forms.RadioButton radioButtonOculus;
         private System.Windows.Forms.Button buttonConfirm;
+        private System.Windows.Forms.RadioButton radioButtonOculus;
     }
 }

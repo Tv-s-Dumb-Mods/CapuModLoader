@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\internals\\simplejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:internals\\simplejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\internals\\unzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:internals\\unzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|MonkeModManager.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|MonkeModManager.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\internals\\releaseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:internals\\releaseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\monke_transparent.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:monke_transparent.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\monke.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:monke.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\monke.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:monke.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\formmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:formmain.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\formselectplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:formselectplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|c:\\users\\brett\\downloads\\capumodloader\\capumodloader\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D30E6357-6B15-4EDC-8DD3-8A6D040D83B2}|CapuModLoader.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormMain.cs",
+              "RelativeDocumentMoniker": "FormMain.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormMain.cs",
+              "RelativeToolTip": "FormMain.cs",
+              "ViewState": "AgIAAF0CAAAAAAAAAAAvwHcCAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:13:42.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\app.config",
+              "RelativeDocumentMoniker": "app.config",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\app.config",
+              "RelativeToolTip": "app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-08T02:13:19.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "monke_transparent.png - PNG [256x256, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\monke_transparent.png",
+              "RelativeDocumentMoniker": "monke_transparent.png",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\monke_transparent.png - PNG [256x256, 32 bit, PNG]",
+              "RelativeToolTip": "monke_transparent.png - PNG [256x256, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-01-08T02:12:50.443Z",
+              "EditorCaption": " - PNG [256x256, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "monke.png - PNG [256x256, 24 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\monke.png",
+              "RelativeDocumentMoniker": "monke.png",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\monke.png - PNG [256x256, 24 bit, PNG]",
+              "RelativeToolTip": "monke.png - PNG [256x256, 24 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-01-08T02:12:49.238Z",
+              "EditorCaption": " - PNG [256x256, 24 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "monke.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\monke.ico",
+              "RelativeDocumentMoniker": "monke.ico",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\monke.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "monke.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2026-01-08T02:12:44.206Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2026-01-08T02:10:15.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormMain.resx",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormMain.resx",
+              "RelativeDocumentMoniker": "FormMain.resx",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormMain.resx",
+              "RelativeToolTip": "FormMain.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-01-08T02:10:06.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "FormMain.Designer.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormMain.Designer.cs",
+              "RelativeToolTip": "FormMain.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:09:57.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SimpleJson.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Internals\\SimpleJson.cs",
+              "RelativeDocumentMoniker": "Internals\\SimpleJson.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Internals\\SimpleJson.cs",
+              "RelativeToolTip": "Internals\\SimpleJson.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwDcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:09:32.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Unzip.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Internals\\Unzip.cs",
+              "RelativeDocumentMoniker": "Internals\\Unzip.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Internals\\Unzip.cs",
+              "RelativeToolTip": "Internals\\Unzip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:08:59.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReleaseInfo.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Internals\\ReleaseInfo.cs",
+              "RelativeDocumentMoniker": "Internals\\ReleaseInfo.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Internals\\ReleaseInfo.cs",
+              "RelativeToolTip": "Internals\\ReleaseInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:08:45.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:08:40.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormSelectPlatform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormSelectPlatform.cs",
+              "RelativeDocumentMoniker": "FormSelectPlatform.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormSelectPlatform.cs [Design]",
+              "RelativeToolTip": "FormSelectPlatform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:08:17.004Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormMain.cs",
+              "RelativeDocumentMoniker": "FormMain.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\FormMain.cs [Design]",
+              "RelativeToolTip": "FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:08:04.577Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\brett\\Downloads\\CapuModLoader\\CapuModLoader\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:07:15.462Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

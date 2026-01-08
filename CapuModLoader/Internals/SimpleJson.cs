@@ -50,6 +50,7 @@ namespace MonkeModManager.Internals
    * - Replaced the old JSONData class by distict typed classes ( JSONString, JSONNumber, JSONBool, JSONNull ) this
    *   allows to propertly convert the node tree back to json without type information loss. The actual value
    *   parsing now happens at parsing time and not when you actually access one of the casting properties.
+   *   parsing now happens at parsing time and not when you actually access one of the casting properties.
    * 
    * [2017-04-11 Update]
    * - Fixed parsing bug where empty string values have been ignored.

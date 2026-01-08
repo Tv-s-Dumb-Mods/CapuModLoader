@@ -207,7 +207,7 @@ namespace MonkeModManager
                         string dir;
                         if (release.InstallLocation == null)
                         {
-                            dir = Path.Combine(InstallDirectory, @"BepInEx\plugins", Regex.Replace(release.Name, @"\s+", string.Empty));
+                            dir = Path.Combine(InstallDirectory, @"Mods", Regex.Replace(release.Name, @"\s+", string.Empty));
                             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
                         }
                         else
@@ -216,7 +216,7 @@ namespace MonkeModManager
                         }
                         File.WriteAllBytes(Path.Combine(dir, fileName), file);
 
-                        var dllFile = Path.Combine(InstallDirectory, @"BepInEx\plugins", fileName);
+                        var dllFile = Path.Combine(InstallDirectory, @"Mods", fileName);
                         if (File.Exists(dllFile))
                         {
                             File.Delete(dllFile);
@@ -332,7 +332,7 @@ namespace MonkeModManager
                 }
             }
 
-            if (release.Name.Contains("BepInEx") || release.Name.Contains("Utilla")) { e.Item.Checked = true; };
+            if (release.Name.Contains("Melon Loader") || release.Name.Contains("Caputilla")) { e.Item.Checked = true; };
             release.Install = e.Item.Checked;
         }
 
@@ -384,7 +384,7 @@ namespace MonkeModManager
             {
                 UpdateStatus("Uninstalling all mods");
 
-                var pluginsPath = Path.Combine(InstallDirectory, @"BepInEx\plugins");
+                var pluginsPath = Path.Combine(InstallDirectory, @"Mods");
 
                 try
                 {
@@ -411,7 +411,7 @@ namespace MonkeModManager
 
         private void buttonBackupMods_Click(object sender, EventArgs e)
         {
-            var pluginsPath = Path.Combine(InstallDirectory, @"BepInEx\plugins");
+            var pluginsPath = Path.Combine(InstallDirectory, @"Mods");
 
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
@@ -457,7 +457,7 @@ namespace MonkeModManager
                         UpdateStatus("Failed to restore mods.");
                         return;
                     }
-                    var pluginsPath = Path.Combine(InstallDirectory, @"BepInEx\plugins");
+                    var pluginsPath = Path.Combine(InstallDirectory, @"Mods");
                     try
                     {
                         UpdateStatus("Restoring mods...");
@@ -465,7 +465,7 @@ namespace MonkeModManager
                         {
                             foreach (var entry in archive.Entries)
                             {
-                                var directory = Path.Combine(InstallDirectory, @"BepInEx\plugins", Path.GetDirectoryName(entry.FullName));
+                                var directory = Path.Combine(InstallDirectory, @"Mods", Path.GetDirectoryName(entry.FullName));
                                 if (!Directory.Exists(directory))
                                 {
                                     Directory.CreateDirectory(directory);
@@ -495,14 +495,14 @@ namespace MonkeModManager
 
         private void buttonOpenConfigFolder_Click(object sender, EventArgs e)
         {
-            var configDirectory = Path.Combine(InstallDirectory, @"BepInEx\config");
+            var configDirectory = Path.Combine(InstallDirectory, @"UserData");
             if (Directory.Exists(configDirectory))
                 Process.Start(configDirectory);
         }
 
         private void buttonOpenModsFolder_Click(object sender, EventArgs e)
         {
-            var BepInExDirectory = Path.Combine(InstallDirectory, @"BepInEx\plugins");
+            var BepInExDirectory = Path.Combine(InstallDirectory, @"Mods");
             if (Directory.Exists(BepInExDirectory))
                 Process.Start(BepInExDirectory);
         }
@@ -694,7 +694,7 @@ namespace MonkeModManager
         }
         private void CheckDefaultMod(ReleaseInfo release, ListViewItem item)
         {
-            if (release.Name.Contains("BepInEx") || release.Name.Contains("Utilla"))
+            if (release.Name.Contains("Melon Loader") || release.Name.Contains("Caputilla"))
             {
                 item.Checked = true;
                 item.ForeColor = Color.LightGray;
